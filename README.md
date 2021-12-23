@@ -2,7 +2,7 @@
 
 # Resume and Project Website 
 
-This repo contains the frontend for my resume and project expostions
+This repo contains the frontend for my resume and project expositions
 [site](https://stephen-campbell-utd.github.io/) that is hosted on 
 [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
 
