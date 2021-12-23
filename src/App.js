@@ -98,14 +98,19 @@ function Section(props) {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 0.3,
+        duration: 0.5,
         type: "tween",
       },
     },
   };
 
   return (
-    <motion.section variants={childVariant}>
+    <motion.section
+      variants={childVariant}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true }}
+    >
       <h2 className="SectionHeader">{props.name}</h2>
       {props.children}
     </motion.section>
@@ -242,21 +247,21 @@ function App() {
     ProfessionalExperience
   );
   const projectElements = eleMapper(resume.Project, Project);
-  const parentVariant = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        duration: 0,
-        staggerChildren: 0.3,
-      },
-    },
-  };
+  // const parentVariant = {
+  //   hidden: { opacity: 0 },
+  //   show: {
+  //     opacity: 1,
+  // transition: {
+  //   duration: 0,
+  //   staggerChildren: 0.3,
+  // },
+  //   },
+  // };
   return (
     <motion.div
       className="MainContainer"
-      variants={parentVariant}
-      // initial="hidden"
+      // variants={parentVariant}
+      // initial="show"
       // animate="show"
     >
       <div className="HeaderContainer">
@@ -269,8 +274,9 @@ function App() {
         {professionalExperienceElements}
       </Section>
       <Section name="Projects">{projectElements}</Section>
-      <Section name="Skills">{projectElements}</Section>
-      <Skills skillList={resume.Skills} />
+      <Section name="Skills">
+        <Skills skillList={resume.Skills} />
+      </Section>
     </motion.div>
   );
 }

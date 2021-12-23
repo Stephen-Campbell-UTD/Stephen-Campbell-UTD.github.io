@@ -17,6 +17,24 @@
         }
     },
     "ProfessionalExperience": {
+        "SystemValidationEngineerIntern": {
+            "start": "2021-06-01",
+            "end": "2021-08-11",
+            "title": "System Validation Engineer Intern",
+            "location": "Dallas, TX",
+            "employer": "Texas Instruments",
+            "takeaways": [
+                "Designed an infrastructure automation saving teammates days per use",
+                "Rapidly learned new technologies and workflows enhancing employer flexibility",
+                "Collaborated in a cross-functional environment efficiently fulfilling product requirements"
+            ],
+            "startMonth": "June",
+            "startYear": "2021",
+            "startMonthYear": "June 2021",
+            "endMonth": "August",
+            "endYear": "2021",
+            "endMonthYear": "August 2021"
+        },
         "OutdoorTripLeader": {
             "start": "2020-05-10",
             "end": "2019-09-10",
@@ -55,6 +73,30 @@
         }
     },
     "Project": {
+        "SeniorDesign": {
+            "start": "2021-08-21",
+            "end": "Present",
+            "title": "TI WiSUN FAN: An Interactive Webserver",
+            "takeaways": [
+                "Spearheaded a real time monitoring solution that visualizes key metrics on a per node time varying basis",
+                "Collaborated with an interdisciplinary 8 member team to efficiently exceed sponsor requirements",
+                "Developed technical communication skills through sharing ideas about the app architecture, specifically how system components function and communicate"
+            ],
+            "TechnologiesUsed": [
+                {
+                    "title": "React",
+                    "link": "https://reactjs.org/"
+                },
+                {
+                    "title": "d3js",
+                    "link": "https://d3js.org/"
+                }
+            ],
+            "startMonth": "August",
+            "startYear": "2021",
+            "startMonthYear": "August 2021",
+            "endMonthYear": "Present"
+        },
         "RobotArmDesignProject": {
             "start": "2019-01-21",
             "end": "2019-05-07",
@@ -62,7 +104,7 @@
             "takeaways": [
                 "Modeled and tested several iterations of an end effector in SolidWorks gaining insight into the design process",
                 "Simulated forward kinematics of robot arm resulting in simplified set of project constraints",
-                "Programmed Arduino microcontroller to perform nuanced movements from sensor signal"
+                "Programmed an Arduino microcontroller to perform nuanced movements from sensor signal"
             ],
             "TechnologiesUsed": [
                 {
